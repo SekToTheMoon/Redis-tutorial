@@ -22,6 +22,6 @@ app.get("/redis1", async (req, res) => {
   res.json(results);
 });
 
-// test
+// comint brach main
 const port = process.env.SERVER_PORT;
 app.listen(port, () => console.log("----server is start----"));
