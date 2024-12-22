@@ -21,5 +21,7 @@ app.get("/redis1", async (req, res) => {
   const [results] = await db.query("select * from users");
   res.json(results);
 });
+
+// test
 const port = process.env.SERVER_PORT;
 app.listen(port, () => console.log("----server is start----"));
