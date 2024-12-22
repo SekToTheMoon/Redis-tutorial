@@ -1,0 +1,27 @@
+{
+  "name": "githubandredis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "ip": "^2.0.1",
+    "mysql2": "^3.11.5",
+    "pino": "^9.5.0",
+    "pino-pretty": "^13.0.0",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
